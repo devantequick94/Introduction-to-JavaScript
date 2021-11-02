@@ -20,6 +20,11 @@ Do the following:
    HINT: no function required
 */
 
+const votingAge = 18;
+if(votingAge >=18){console.log(true)
+}
+
+
 
 
 /*
@@ -33,7 +38,11 @@ Do the following:
    HINT: no function required
 */
 
-
+let var1 = 1;
+let var2 = 2;
+if(var2 === 2){var1++
+}
+console.log(var1)
 
 
 
@@ -48,7 +57,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+const stringVar = "1999";
+console.log(Number(stringVar));
 
 
 /*
@@ -60,9 +70,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply (a, b){a*b
 }
+
 
 
 
